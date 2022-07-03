@@ -20,7 +20,6 @@ public class TodoController {
 
     private  final TodoService service;
 
-    //테스트
     @PostMapping
     public ResponseEntity<TodoResponse> create(@RequestBody TodoRequest request) {
         System.out.println("CREATE");
